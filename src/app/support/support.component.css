@@ -1,0 +1,22 @@
+.gradient{
+    background:linear-gradient( to bottom right, rgb(238, 203, 248), rgb(255, 255, 255))
+}
+.center{
+    text-align: center;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 500px)
+{
+
+.flex > button{
+padding: 0;
+
+}
+.flex > svg{
+    display:none;
+}
+
+}

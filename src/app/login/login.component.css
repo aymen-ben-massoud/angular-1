@@ -1,0 +1,86 @@
+
+.form-control.ng-touched.ng-invalid{
+    border-left: 5px solid red;
+}
+.form-control.ng-valid{
+    border-left: 5px solid green;  
+}
+
+.alert{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: start;
+    height: 30px;
+    padding:  0;
+  
+    padding-left: 15px;
+    color: black;
+
+}
+.gradient{
+    background:linear-gradient( to bottom right, rgb(238, 203, 248), rgb(255, 255, 255))
+}
+.form1{
+   box-shadow: 50px 20px 100px white;
+   border-radius: 10px;
+}
+.container{
+    height: 100vh;
+}
+.form1 h1{
+    font-size: 25px;
+    font-weight: 800;
+    word-spacing: 4px;
+}
+.pforme{
+    font-size: 15px;
+    color: rgb(43, 42, 42);
+    font-weight: 600;
+}
+.pforme b{
+    font-size: 18px;
+    font-weight: 800;
+    color: mediumslateblue;
+}
+.btnform{
+    width: 320px;
+   background-color: mediumslateblue;
+   outline:mediumslateblue ;
+   border:mediumslateblue ;
+}
+.text h1{
+    font-weight: 800;
+
+}
+
+.text p{
+    text-align: justify;
+    width: 340px;
+    font-size: 200;
+    color:rgb(80, 78, 78) ;
+  
+    
+
+}
+@media only screen and (max-width: 500px) {
+    .text p{
+        text-align: justify;
+        width: fit-content;
+        font-size: 200;
+        color:rgb(80, 78, 78) ;
+       
+        
+    
+    }
+    .formmobile{
+        padding: 5px;
+    }
+    
+    .flex > button{
+        padding: 0;
+        
+        }
+        .flex > svg{
+            display:none;
+        }
+}
